@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Plataformas:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chip_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:singleSelection="true">
+
+                <com.google.android.material.chip.Chip
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="PS4"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#000000"
+                    app:chipBackgroundColor="#C5C2C2"
+                    app:chipCornerRadius="24dp"
+                    app:chipIconVisible="false" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="PC"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#000000"
+                    app:chipBackgroundColor="#C5C2C2"
+                    app:chipCornerRadius="24dp"
+                    app:chipIconVisible="false" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="XBOX"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#000000"
+                    app:chipBackgroundColor="#C5C2C2"
+                    app:chipCornerRadius="24dp"
+                    app:chipIconVisible="false" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="WII"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#000000"
+                    app:chipBackgroundColor="#C5C2C2"
+                    app:chipCornerRadius="24dp"
+                    app:chipIconVisible="false" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="WIIU"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#000000"
+                    app:chipBackgroundColor="#C5C2C2"
+                    app:chipCornerRadius="24dp"
+                    app:chipIconVisible="false" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="3DS"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#000000"
+                    app:chipBackgroundColor="#C5C2C2"
+                    app:chipCornerRadius="24dp"
+                    app:chipIconVisible="false" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="X360"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#000000"
+                    app:chipBackgroundColor="#C5C2C2"
+                    app:chipCornerRadius="24dp"
+                    app:chipIconVisible="false" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Géneros:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#EF8282"
+        app:fabAlignmentMode="center"
+        app:hideOnScroll="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_input_add"
+        app:tint="@android:color/white"
+        app:backgroundTint="@color/colorOnPrimaryAlt"
+        android:contentDescription="Botón FAB"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

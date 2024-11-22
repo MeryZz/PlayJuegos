@@ -1,3 +1,18 @@
 <resources>
+
     <string name="app_name">Play Juegos</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_add">Añadir</string>
+
+    <string name="accion">Acción</string>
+    <string name="aventura">Aventura</string>
+    <string name="deportes">Deportes</string>
+    <string name="disparos">Disparos</string>
+    <string name="estrategia">Estratégia</string>
+    <string name="lucha">Lucha</string>
+    <string name="musical">Musical</string>
+    <string name="rol">Rol</string>
+    <string name="simulacion">Simulación</string>
+
 </resources>

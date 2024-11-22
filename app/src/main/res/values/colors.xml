@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores principales -->
+    <color name="colorPrimary">#2998F0</color>
+    <color name="colorPrimaryVariant">#1475D5</color>
+    <color name="colorOnPrimary">#FA5829</color>
+
+    <!-- Colores alternativos -->
+    <color name="colorPrimaryAlt">#ED5F54</color>
+    <color name="colorPrimaryAltDark">#DB2727</color>
+    <color name="colorOnPrimaryAlt">#0BD5ED</color>
+    <color name="colorPrimaryVariantAlt">#0BD5ED</color>
+
+    <color name="azúl_claro">#46D0EB</color>
+    <color name="negro">#000000</color>
+
 </resources>

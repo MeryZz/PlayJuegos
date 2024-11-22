@@ -6,9 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EFEBEB"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/textView"
@@ -18,46 +18,64 @@
         android:text="Play Juegos"
         android:textColor="#767474"
         android:textSize="24sp"
-        android:textStyle="normal" />
+        android:textStyle="normal"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="20dp" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:id="@+id/button"
-        android:layout_width="320dp"
+        android:layout_width="285dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="#BDB7B7"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorOnPrimaryAlt"
         android:text="PLAY"
-        android:textColor="#020202"
-        app:cornerRadius="0dp" />
+        android:textColor="#FFFFFFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:cornerRadius="15dp"
+        android:textSize="18dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:id="@+id/button1"
-        android:layout_width="320dp"
+        android:layout_width="285dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="#BDB7B7"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorOnPrimaryAlt"
         android:text="NEW PLAYER"
-        android:textColor="#090909"
-        app:cornerRadius="0dp" />
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:cornerRadius="15dp"
+        android:textSize="18dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:id="@+id/button2"
-        android:layout_width="320dp"
+        android:layout_width="285dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="#BDB7B7"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorOnPrimaryAlt"
         android:text="PREFERENCIES"
-        android:textColor="#000000"
-        app:cornerRadius="0dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:backgroundTint="#BDB7B7"
+        android:textColor="#FFFFFFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:cornerRadius="15dp"
+        android:textSize="18dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:id="@+id/button3"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorOnPrimaryAlt"
         android:text="ABOUT"
-        android:textColor="#000000"
-        app:cornerRadius="0dp" />
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFEFE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:cornerRadius="15dp"
+        android:textSize="18dp"/>
+
 
 </LinearLayout>

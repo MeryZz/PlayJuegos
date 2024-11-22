@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Tema principal -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+
+    <style name="AppThemeAlt" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Tema secundario -->
+        <item name="colorPrimary">@color/colorPrimaryAlt</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryAltDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimaryAlt</item>
+        <item name="android:statusBarColor">@color/colorPrimaryAltDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+
+    <style name="EditTextTheme" parent="Widget.AppCompat.EditText">
+        <item name="colorControlActivated">@color/colorPrimaryVariantAlt</item>
+        <item name="android:backgroundTint">@color/colorOnPrimaryAlt</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/colorPrimaryAlt</item>
+    </style>
+
+    <style name="TextInputHintStyle">
+        <item name="android:textColorHint">@color/colorOnPrimaryAlt</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+    </style>
+
+</resources>
